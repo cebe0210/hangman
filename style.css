@@ -24,6 +24,7 @@ a:hover {
 }
 
 body {
+  background-image: url(img/background.webp);
   margin: 0;
   display: flex;
   place-items: center;

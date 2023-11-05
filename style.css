@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -24,7 +24,6 @@ a:hover {
 }
 
 body {
-  background-image: url(img/background.webp);
   margin: 0;
   display: flex;
   place-items: center;
@@ -95,4 +94,44 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+@font-face {
+  font-family: swokum;
+  src: url(Smokum/Smokum-Regular.ttf);
 }
+ body {
+  background-image: url("img/background.webp");
+  background-color: sienna;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, fr);
+  grid-template-rows: repeat(5, fr);
+ }
+h1 {
+  text-align: center;
+  font-family: swokum;
+  font-size: 50px;
+  color: saddlebrown;
+  border: 1px;
+
+}
+ footer {
+  text-align: center;
+  margin-top: auto;
+  grid-row: 5;
+ }
+ #iconGit {
+  width: 30px;
+  height: auto;
+ }
+ #mot {
+  text-align: center;
+  font-family: swokum;
+  font-size: 36px;
+  color: saddlebrown;
+  font-weight: bold;
+  letter-spacing: 3px;
+ }
+
+
